@@ -1,0 +1,56 @@
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container-frame {
+    background: #C0C0C0;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    box-shadow: 0 0 3px #080707;
+    margin-left: 2%;
+    margin-right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.my-flex-block {
+    flex-direction: column;
+    flex-wrap: wrap-reverse;
+    background: #C0C0C0;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    box-shadow: 0 0 3px #080707;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+}
+
+.my-flex-container {
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+.marginCat {
+    margin-top: 10%;
+}
+
+.container-left {
+    margin-left: 5%;
+}
+
+.container-height {
+    height: 60%;
+}
